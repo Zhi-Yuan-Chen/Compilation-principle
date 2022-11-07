@@ -10,6 +10,7 @@ import cn.edu.hitsz.compiler.symtab.SymbolTable;
 import java.util.Stack;
 
 // TODO: 实验三: 实现语义分析
+
 public class SemanticAnalyzer implements ActionObserver {
     public SymbolTable symbolTable;
     public Stack<Symbol>symbolStack=new Stack<>();
